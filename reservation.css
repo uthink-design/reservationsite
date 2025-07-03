@@ -4,7 +4,7 @@ body {
   background: url("your-background.jpg") no-repeat center center;
   background-size: cover; /* 画像zßを全体にフィット */
   align-items: center; /* 画像を中央寄せにしたい場合 */
-  background-image: url('backphoto..jpg'); 
+  background-image: url("backphoto..jpg"); 
   background-repeat: no-repeat;/* 繰り返さない */
   display: flex;
   justify-content: center;
