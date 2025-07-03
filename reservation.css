@@ -1,0 +1,64 @@
+body {
+  font-family: "小塚ゴシックPr6N ", sans-serif;
+  font-weight: bold;
+  background: url("your-background.jpg") no-repeat center center;
+  background-size: cover; /* 画像zßを全体にフィット */
+  align-items: center; /* 画像を中央寄せにしたい場合 */
+  background-image: url('photo2/backphoto..jpg'); 
+  background-repeat: no-repeat;/* 繰り返さない */
+  display: flex;
+  justify-content: center;
+  
+} 
+.container {
+  
+  max-width: 600px;
+  min-height: 600px;
+  padding: 0px 40px;
+  margin: 300px auto;
+  background-color: #FFFFFF
+}
+#container > div {
+  margin-bottom: 20px; 
+}
+.pink{
+  text-align: center;
+  font-size: 60px;
+  color: #FF69A6;
+  border-bottom: 10px solid #FF69A6;
+  line-height:3.5 ;
+}
+p{
+  line-height: 2.5;
+  margin: 0 0 35px;
+  font-size: 35px;
+  color: #606060;
+}
+.indent{
+  padding-left: 1.4em;
+  display: inline-block;
+}
+.click {
+  color:yellow;
+  background-color: #FF69A6;
+  margin: 40px 10px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 50px;
+  padding: 60px 80px;
+  margin: 70px 20px;
+  text-decoration: none;
+}
+/*タブレット*/
+@media (max-width: 1024px) {
+  /*共通設定*/
+  /*終わり*/
+  
+  /*<header class="header">*/
+  /*終わり*/
+  }
+  /*スマホ*/
+  @media (max-width: 599px) {
+  /*共通設定*/
+  /*終わり*/
+  }
